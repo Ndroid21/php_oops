@@ -1,9 +1,9 @@
 <?php
-namespace App\Vehicle;
+namespace App;
 
 class Vehicle
 {
-    private $name;
+    protected $name;
     protected $gears;
 
     public function __construct($name, $gears)
